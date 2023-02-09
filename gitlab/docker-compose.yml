@@ -25,7 +25,7 @@ services:
       - web
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - '/home/ali/gitlab-docker/gitlab/gitlab-runner:/etc/gitlab-runner'
+      - '/home/ali/gitlab-docker/gitlab-runner:/etc/gitlab-runner'
     networks:
       - gitlab
 
